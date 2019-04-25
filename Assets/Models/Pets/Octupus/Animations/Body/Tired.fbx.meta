@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 9231f5b76e32daa4a832325dbc761259
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: band1j1
+    100002: band1j2
+    100004: band1j3
+    100006: band1j4
+    100008: band2j1
+    100010: band2j2
+    100012: band2j3
+    100014: band2j4
+    100016: BotLid
+    100018: botLid
+    100020: eye
+    100022: eye 1
+    100024: Geo
+    100026: Hip
+    100028: leg1_jLeg1
+    100030: leg1_jLeg2
+    100032: leg1_jLeg3
+    100034: leg1_jLeg4
+    100036: leg1_jLeg5
+    100038: leg1_jLeg6
+    100040: leg2_jLeg1
+    100042: leg2_jLeg2
+    100044: leg2_jLeg3
+    100046: leg2_jLeg4
+    100048: leg2_jLeg5
+    100050: leg2_jLeg6
+    100052: leg3_jLeg1
+    100054: leg3_jLeg2
+    100056: leg3_jLeg3
+    100058: leg3_jLeg4
+    100060: leg3_jLeg5
+    100062: leg3_jLeg6
+    100064: leg4_jLeg1
+    100066: leg4_jLeg2
+    100068: leg4_jLeg3
+    100070: leg4_jLeg4
+    100072: leg4_jLeg5
+    100074: leg4_jLeg6
+    100076: leg5_jLeg1
+    100078: leg5_jLeg2
+    100080: leg5_jLeg3
+    100082: leg5_jLeg4
+    100084: leg5_jLeg5
+    100086: leg5_jLeg6
+    100088: leg6_jLeg1
+    100090: leg6_jLeg2
+    100092: leg6_jLeg3
+    100094: leg6_jLeg4
+    100096: leg6_jLeg5
+    100098: leg6_jLeg6
+    100100: leg7_jLeg1
+    100102: leg7_jLeg2
+    100104: leg7_jLeg3
+    100106: leg7_jLeg4
+    100108: leg7_jLeg5
+    100110: leg7_jLeg6
+    100112: leg8_jLeg1
+    100114: leg8_jLeg2
+    100116: leg8_jLeg3
+    100118: leg8_jLeg4
+    100120: leg8_jLeg5
+    100122: leg8_jLeg6
+    100124: LEyeJoint
+    100126: REyeJoint
+    100128: Skeleton
+    100130: spine_j1
+    100132: spine_j2
+    100134: spine_j3
+    100136: spine_j4
+    100138: //RootNode
+    100140: topLid
+    100142: topLid 1
+    400000: band1j1
+    400002: band1j2
+    400004: band1j3
+    400006: band1j4
+    400008: band2j1
+    400010: band2j2
+    400012: band2j3
+    400014: band2j4
+    400016: BotLid
+    400018: botLid
+    400020: eye
+    400022: eye 1
+    400024: Geo
+    400026: Hip
+    400028: leg1_jLeg1
+    400030: leg1_jLeg2
+    400032: leg1_jLeg3
+    400034: leg1_jLeg4
+    400036: leg1_jLeg5
+    400038: leg1_jLeg6
+    400040: leg2_jLeg1
+    400042: leg2_jLeg2
+    400044: leg2_jLeg3
+    400046: leg2_jLeg4
+    400048: leg2_jLeg5
+    400050: leg2_jLeg6
+    400052: leg3_jLeg1
+    400054: leg3_jLeg2
+    400056: leg3_jLeg3
+    400058: leg3_jLeg4
+    400060: leg3_jLeg5
+    400062: leg3_jLeg6
+    400064: leg4_jLeg1
+    400066: leg4_jLeg2
+    400068: leg4_jLeg3
+    400070: leg4_jLeg4
+    400072: leg4_jLeg5
+    400074: leg4_jLeg6
+    400076: leg5_jLeg1
+    400078: leg5_jLeg2
+    400080: leg5_jLeg3
+    400082: leg5_jLeg4
+    400084: leg5_jLeg5
+    400086: leg5_jLeg6
+    400088: leg6_jLeg1
+    400090: leg6_jLeg2
+    400092: leg6_jLeg3
+    400094: leg6_jLeg4
+    400096: leg6_jLeg5
+    400098: leg6_jLeg6
+    400100: leg7_jLeg1
+    400102: leg7_jLeg2
+    400104: leg7_jLeg3
+    400106: leg7_jLeg4
+    400108: leg7_jLeg5
+    400110: leg7_jLeg6
+    400112: leg8_jLeg1
+    400114: leg8_jLeg2
+    400116: leg8_jLeg3
+    400118: leg8_jLeg4
+    400120: leg8_jLeg5
+    400122: leg8_jLeg6
+    400124: LEyeJoint
+    400126: REyeJoint
+    400128: Skeleton
+    400130: spine_j1
+    400132: spine_j2
+    400134: spine_j3
+    400136: spine_j4
+    400138: //RootNode
+    400140: topLid
+    400142: topLid 1
+    7400000: Tired
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tired
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.5
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b9c9c141fb4aa3d47938dd14ef89202a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

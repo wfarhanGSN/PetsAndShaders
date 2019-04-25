@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: a7ca2beaf7e2ea54bba4933f34d92aa9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Big_rock10
+    100002: Big_rock5
+    100004: Big_rock6
+    100006: Big_rock7
+    100008: Big_rock8
+    100010: Big_rock9
+    100012: GroundPlane
+    100014: //RootNode
+    100016: Rock_1
+    100018: Rock_10
+    100020: Rock_11
+    100022: Rock_12
+    100024: Rock_13
+    100026: Rock_14
+    100028: Rock_15
+    100030: Rock_16
+    100032: Rock_2
+    100034: Rock_3
+    100036: Rock_4
+    100038: Rock_5
+    100040: Rock_6
+    100042: Rock_7
+    100044: Rock_8
+    100046: Rock_9
+    400000: Big_rock10
+    400002: Big_rock5
+    400004: Big_rock6
+    400006: Big_rock7
+    400008: Big_rock8
+    400010: Big_rock9
+    400012: GroundPlane
+    400014: //RootNode
+    400016: Rock_1
+    400018: Rock_10
+    400020: Rock_11
+    400022: Rock_12
+    400024: Rock_13
+    400026: Rock_14
+    400028: Rock_15
+    400030: Rock_16
+    400032: Rock_2
+    400034: Rock_3
+    400036: Rock_4
+    400038: Rock_5
+    400040: Rock_6
+    400042: Rock_7
+    400044: Rock_8
+    400046: Rock_9
+    2100000: Big_rock_mat
+    2100002: Rock_1_mat
+    2100004: Rock_2_mat
+    2100006: Ground_Mat
+    2300000: Big_rock10
+    2300002: Big_rock5
+    2300004: Big_rock6
+    2300006: Big_rock7
+    2300008: Big_rock8
+    2300010: Big_rock9
+    2300012: GroundPlane
+    2300014: Rock_1
+    2300016: Rock_10
+    2300018: Rock_11
+    2300020: Rock_12
+    2300022: Rock_13
+    2300024: Rock_14
+    2300026: Rock_15
+    2300028: Rock_16
+    2300030: Rock_2
+    2300032: Rock_3
+    2300034: Rock_4
+    2300036: Rock_5
+    2300038: Rock_6
+    2300040: Rock_7
+    2300042: Rock_8
+    2300044: Rock_9
+    3300000: Big_rock10
+    3300002: Big_rock5
+    3300004: Big_rock6
+    3300006: Big_rock7
+    3300008: Big_rock8
+    3300010: Big_rock9
+    3300012: GroundPlane
+    3300014: Rock_1
+    3300016: Rock_10
+    3300018: Rock_11
+    3300020: Rock_12
+    3300022: Rock_13
+    3300024: Rock_14
+    3300026: Rock_15
+    3300028: Rock_16
+    3300030: Rock_2
+    3300032: Rock_3
+    3300034: Rock_4
+    3300036: Rock_5
+    3300038: Rock_6
+    3300040: Rock_7
+    3300042: Rock_8
+    3300044: Rock_9
+    4300000: Big_rock10
+    4300002: Rock_14
+    4300004: Rock_13
+    4300006: Rock_12
+    4300008: Rock_11
+    4300010: Rock_10
+    4300012: Rock_9
+    4300014: Rock_8
+    4300016: Big_rock9
+    4300018: Rock_7
+    4300020: Rock_6
+    4300022: Rock_5
+    4300024: Rock_4
+    4300026: Rock_3
+    4300028: Rock_1
+    4300030: Big_rock8
+    4300032: Big_rock7
+    4300034: Big_rock6
+    4300036: Rock_2
+    4300038: Big_rock5
+    4300040: GroundPlane
+    4300042: Rock_15
+    4300044: Rock_16
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

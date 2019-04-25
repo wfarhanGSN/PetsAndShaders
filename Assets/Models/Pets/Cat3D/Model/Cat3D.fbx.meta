@@ -1,0 +1,353 @@
+fileFormatVersion: 2
+guid: e98bae647517fa54ca60be73d014017f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: backLegs
+    100002: Belly
+    100004: Body
+    100006: //RootNode
+    100008: CatGeo
+    100010: frontLegs
+    100012: head
+    100014: headTip
+    100016: Hips
+    100018: L
+    100020: l_backLeg1
+    100022: l_backLeg2
+    100024: l_backLeg3
+    100026: l_ear1
+    100028: l_ear2
+    100030: l_ear3
+    100032: l_eye
+    100034: l_eyebrow
+    100036: l_eyebrowJoint
+    100038: l_eyeGroup
+    100040: l_eyeJoint
+    100042: l_eyeLowLid
+    100044: l_eyeMain
+    100046: l_eyeUpLid
+    100048: l_frontLeg1
+    100050: l_frontLeg2
+    100052: l_frontLeg3
+    100054: l_lowerLid
+    100056: l_upperLid
+    100058: l_Whiskers
+    100060: R
+    100062: r_backLeg1
+    100064: r_backLeg2
+    100066: r_backLeg3
+    100068: r_ear1
+    100070: r_ear2
+    100072: r_ear3
+    100074: r_eye
+    100076: r_eyebrow
+    100078: r_eyebrowJoint
+    100080: r_eyeGroup
+    100082: r_eyeJoint
+    100084: r_eyeLowLid
+    100086: r_eyeMain
+    100088: r_eyeUpLid
+    100090: r_frontLeg1
+    100092: r_frontLeg2
+    100094: r_frontLeg3
+    100096: r_lowerLid
+    100098: r_upperLid
+    100100: r_Whiskers
+    100102: spine0
+    100104: spine1
+    100106: spine2
+    100108: spine3
+    100110: tail1
+    100112: tail2
+    100114: tail3
+    100116: tail4
+    100118: tail5
+    100120: TailGeo
+    100122: w1
+    100124: w1 1
+    100126: w2
+    100128: w2 1
+    100130: w3
+    100132: w3 1
+    100134: Whiskers
+    100136: Hair
+    100138: hair
+    400000: backLegs
+    400002: Belly
+    400004: Body
+    400006: //RootNode
+    400008: CatGeo
+    400010: frontLegs
+    400012: head
+    400014: headTip
+    400016: Hips
+    400018: L
+    400020: l_backLeg1
+    400022: l_backLeg2
+    400024: l_backLeg3
+    400026: l_ear1
+    400028: l_ear2
+    400030: l_ear3
+    400032: l_eye
+    400034: l_eyebrow
+    400036: l_eyebrowJoint
+    400038: l_eyeGroup
+    400040: l_eyeJoint
+    400042: l_eyeLowLid
+    400044: l_eyeMain
+    400046: l_eyeUpLid
+    400048: l_frontLeg1
+    400050: l_frontLeg2
+    400052: l_frontLeg3
+    400054: l_lowerLid
+    400056: l_upperLid
+    400058: l_Whiskers
+    400060: R
+    400062: r_backLeg1
+    400064: r_backLeg2
+    400066: r_backLeg3
+    400068: r_ear1
+    400070: r_ear2
+    400072: r_ear3
+    400074: r_eye
+    400076: r_eyebrow
+    400078: r_eyebrowJoint
+    400080: r_eyeGroup
+    400082: r_eyeJoint
+    400084: r_eyeLowLid
+    400086: r_eyeMain
+    400088: r_eyeUpLid
+    400090: r_frontLeg1
+    400092: r_frontLeg2
+    400094: r_frontLeg3
+    400096: r_lowerLid
+    400098: r_upperLid
+    400100: r_Whiskers
+    400102: spine0
+    400104: spine1
+    400106: spine2
+    400108: spine3
+    400110: tail1
+    400112: tail2
+    400114: tail3
+    400116: tail4
+    400118: tail5
+    400120: TailGeo
+    400122: w1
+    400124: w1 1
+    400126: w2
+    400128: w2 1
+    400130: w3
+    400132: w3 1
+    400134: Whiskers
+    400136: Hair
+    400138: hair
+    2100000: eyesYellow1
+    2100002: eyesIris
+    2100004: eyeLids
+    2100006: whiskers
+    2100008: Nose
+    2100010: Tail
+    2100012: CatBody
+    2100014: Ears
+    2100016: hairMat
+    2100018: CatMouth
+    2300000: TailGeo
+    3300000: TailGeo
+    4300000: r_eye
+    4300002: r_upperLid
+    4300004: r_lowerLid
+    4300006: l_upperLid
+    4300008: l_lowerLid
+    4300010: l_eye
+    4300012: w1
+    4300014: w2
+    4300016: w3
+    4300018: w1
+    4300020: w2
+    4300022: w3
+    4300024: r_eyebrow
+    4300026: l_eyebrow
+    4300028: TailGeo
+    4300030: Body
+    4300032: Hair
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Body
+    13700002: l_eye
+    13700004: l_eyebrow
+    13700006: l_lowerLid
+    13700008: l_upperLid
+    13700010: r_eye
+    13700012: r_eyebrow
+    13700014: r_lowerLid
+    13700016: r_upperLid
+    13700018: w1
+    13700020: w1 1
+    13700022: w2
+    13700024: w2 1
+    13700026: w3
+    13700028: w3 1
+    13700030: Hair
+    13700032: TailGeo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CatBody
+    second: {fileID: 2100000, guid: fc208b5bd1e0a1747acdc1726b3f89f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ears
+    second: {fileID: 2100000, guid: e0861a89f18185b4d8569825f5733f68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nose
+    second: {fileID: 2100000, guid: 1ef65cb7c6527224e947b4ebbc381b0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail
+    second: {fileID: 2100000, guid: 1f3c4e0f9443e8f4da84ee001dd345a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyeLids
+    second: {fileID: 2100000, guid: 2a52d79169399c94083b93e776c4f40d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyesIris
+    second: {fileID: 2100000, guid: ce86a97dadfd6894c881cbd8e7eee9dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyesYellow1
+    second: {fileID: 2100000, guid: 551ffd49aafe1b2459835f9a1396f714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairMat
+    second: {fileID: 2100000, guid: e038ec74bdf06314e9f55d34a8d25de8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: whiskers
+    second: {fileID: 2100000, guid: cd1a2a9544be32347b0e85fdc18734a0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CatBody
+    second: {fileID: 2800000, guid: 44088a667b8c1e6469372f918162356c, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.5
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

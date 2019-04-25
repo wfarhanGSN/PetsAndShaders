@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 88e2bb13bf6681a459e619ff580834d1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: backLegs
+    100002: Belly
+    100004: //RootNode
+    100006: frontLegs
+    100008: hair
+    100010: head
+    100012: headTip
+    100014: Hips
+    100016: l_backLeg1
+    100018: l_backLeg2
+    100020: l_backLeg3
+    100022: l_ear1
+    100024: l_ear2
+    100026: l_ear3
+    100028: l_eyebrowJoint
+    100030: l_eyeJoint
+    100032: l_eyeLowLid
+    100034: l_eyeMain
+    100036: l_eyeUpLid
+    100038: l_frontLeg1
+    100040: l_frontLeg2
+    100042: l_frontLeg3
+    100044: l_Whiskers
+    100046: r_backLeg1
+    100048: r_backLeg2
+    100050: r_backLeg3
+    100052: r_ear1
+    100054: r_ear2
+    100056: r_ear3
+    100058: r_eyebrowJoint
+    100060: r_eyeJoint
+    100062: r_eyeLowLid
+    100064: r_eyeMain
+    100066: r_eyeUpLid
+    100068: r_frontLeg1
+    100070: r_frontLeg2
+    100072: r_frontLeg3
+    100074: r_Whiskers
+    100076: spine0
+    100078: spine1
+    100080: spine2
+    100082: spine3
+    100084: tail1
+    100086: tail2
+    100088: tail3
+    100090: tail4
+    100092: tail5
+    400000: backLegs
+    400002: Belly
+    400004: //RootNode
+    400006: frontLegs
+    400008: hair
+    400010: head
+    400012: headTip
+    400014: Hips
+    400016: l_backLeg1
+    400018: l_backLeg2
+    400020: l_backLeg3
+    400022: l_ear1
+    400024: l_ear2
+    400026: l_ear3
+    400028: l_eyebrowJoint
+    400030: l_eyeJoint
+    400032: l_eyeLowLid
+    400034: l_eyeMain
+    400036: l_eyeUpLid
+    400038: l_frontLeg1
+    400040: l_frontLeg2
+    400042: l_frontLeg3
+    400044: l_Whiskers
+    400046: r_backLeg1
+    400048: r_backLeg2
+    400050: r_backLeg3
+    400052: r_ear1
+    400054: r_ear2
+    400056: r_ear3
+    400058: r_eyebrowJoint
+    400060: r_eyeJoint
+    400062: r_eyeLowLid
+    400064: r_eyeMain
+    400066: r_eyeUpLid
+    400068: r_frontLeg1
+    400070: r_frontLeg2
+    400072: r_frontLeg3
+    400074: r_Whiskers
+    400076: spine0
+    400078: spine1
+    400080: spine2
+    400082: spine3
+    400084: tail1
+    400086: tail2
+    400088: tail3
+    400090: tail4
+    400092: tail5
+    7400000: Eat
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Eat
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.59
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e98bae647517fa54ca60be73d014017f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

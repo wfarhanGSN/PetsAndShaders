@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: b9c9c141fb4aa3d47938dd14ef89202a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Band
+    100002: Band 1
+    100004: band1j1
+    100006: band1j2
+    100008: band1j3
+    100010: band1j4
+    100012: band2j1
+    100014: band2j2
+    100016: band2j3
+    100018: band2j4
+    100020: BandKnot
+    100022: BandTag
+    100024: BandTip1
+    100026: BandTip2
+    100028: Body
+    100030: BotLid
+    100032: botLid
+    100034: eye
+    100036: eye 1
+    100038: eye 2
+    100040: eye1
+    100042: eyeLid
+    100044: eyeLid 1
+    100046: eyeLid1
+    100048: eyeLid1 1
+    100050: Eyes
+    100052: Geo
+    100054: Hip
+    100056: l_eye
+    100058: leg1_jLeg1
+    100060: leg1_jLeg2
+    100062: leg1_jLeg3
+    100064: leg1_jLeg4
+    100066: leg1_jLeg5
+    100068: leg1_jLeg6
+    100070: leg2_jLeg1
+    100072: leg2_jLeg2
+    100074: leg2_jLeg3
+    100076: leg2_jLeg4
+    100078: leg2_jLeg5
+    100080: leg2_jLeg6
+    100082: leg3_jLeg1
+    100084: leg3_jLeg2
+    100086: leg3_jLeg3
+    100088: leg3_jLeg4
+    100090: leg3_jLeg5
+    100092: leg3_jLeg6
+    100094: leg4_jLeg1
+    100096: leg4_jLeg2
+    100098: leg4_jLeg3
+    100100: leg4_jLeg4
+    100102: leg4_jLeg5
+    100104: leg4_jLeg6
+    100106: leg5_jLeg1
+    100108: leg5_jLeg2
+    100110: leg5_jLeg3
+    100112: leg5_jLeg4
+    100114: leg5_jLeg5
+    100116: leg5_jLeg6
+    100118: leg6_jLeg1
+    100120: leg6_jLeg2
+    100122: leg6_jLeg3
+    100124: leg6_jLeg4
+    100126: leg6_jLeg5
+    100128: leg6_jLeg6
+    100130: leg7_jLeg1
+    100132: leg7_jLeg2
+    100134: leg7_jLeg3
+    100136: leg7_jLeg4
+    100138: leg7_jLeg5
+    100140: leg7_jLeg6
+    100142: leg8_jLeg1
+    100144: leg8_jLeg2
+    100146: leg8_jLeg3
+    100148: leg8_jLeg4
+    100150: leg8_jLeg5
+    100152: leg8_jLeg6
+    100154: LEyeJoint
+    100156: //RootNode
+    100158: r_eye
+    100160: REyeJoint
+    100162: Skeleton
+    100164: spine_j1
+    100166: spine_j2
+    100168: spine_j3
+    100170: spine_j4
+    100172: topLid
+    100174: topLid 1
+    400000: Band
+    400002: Band 1
+    400004: band1j1
+    400006: band1j2
+    400008: band1j3
+    400010: band1j4
+    400012: band2j1
+    400014: band2j2
+    400016: band2j3
+    400018: band2j4
+    400020: BandKnot
+    400022: BandTag
+    400024: BandTip1
+    400026: BandTip2
+    400028: Body
+    400030: BotLid
+    400032: botLid
+    400034: eye
+    400036: eye 1
+    400038: eye 2
+    400040: eye1
+    400042: eyeLid
+    400044: eyeLid 1
+    400046: eyeLid1
+    400048: eyeLid1 1
+    400050: Eyes
+    400052: Geo
+    400054: Hip
+    400056: l_eye
+    400058: leg1_jLeg1
+    400060: leg1_jLeg2
+    400062: leg1_jLeg3
+    400064: leg1_jLeg4
+    400066: leg1_jLeg5
+    400068: leg1_jLeg6
+    400070: leg2_jLeg1
+    400072: leg2_jLeg2
+    400074: leg2_jLeg3
+    400076: leg2_jLeg4
+    400078: leg2_jLeg5
+    400080: leg2_jLeg6
+    400082: leg3_jLeg1
+    400084: leg3_jLeg2
+    400086: leg3_jLeg3
+    400088: leg3_jLeg4
+    400090: leg3_jLeg5
+    400092: leg3_jLeg6
+    400094: leg4_jLeg1
+    400096: leg4_jLeg2
+    400098: leg4_jLeg3
+    400100: leg4_jLeg4
+    400102: leg4_jLeg5
+    400104: leg4_jLeg6
+    400106: leg5_jLeg1
+    400108: leg5_jLeg2
+    400110: leg5_jLeg3
+    400112: leg5_jLeg4
+    400114: leg5_jLeg5
+    400116: leg5_jLeg6
+    400118: leg6_jLeg1
+    400120: leg6_jLeg2
+    400122: leg6_jLeg3
+    400124: leg6_jLeg4
+    400126: leg6_jLeg5
+    400128: leg6_jLeg6
+    400130: leg7_jLeg1
+    400132: leg7_jLeg2
+    400134: leg7_jLeg3
+    400136: leg7_jLeg4
+    400138: leg7_jLeg5
+    400140: leg7_jLeg6
+    400142: leg8_jLeg1
+    400144: leg8_jLeg2
+    400146: leg8_jLeg3
+    400148: leg8_jLeg4
+    400150: leg8_jLeg5
+    400152: leg8_jLeg6
+    400154: LEyeJoint
+    400156: //RootNode
+    400158: r_eye
+    400160: REyeJoint
+    400162: Skeleton
+    400164: spine_j1
+    400166: spine_j2
+    400168: spine_j3
+    400170: spine_j4
+    400172: topLid
+    400174: topLid 1
+    2100000: BodyMat
+    2100002: MouthMat
+    2100004: LowerPartMat
+    2100006: BandMat
+    2100008: blinn1
+    2100010: blinn3
+    2100012: EyeLidsMat
+    2100014: EyeMat
+    2100016: IrisMat
+    4300000: Body
+    4300002: BandTip1
+    4300004: BandKnot
+    4300006: BandTip2
+    4300008: BandTag
+    4300010: Band
+    4300012: eyeLid
+    4300014: eye1
+    4300016: eyeLid1
+    4300018: eyeLid
+    4300020: eye
+    4300022: eyeLid1
+    9500000: //RootNode
+    13700000: Band 1
+    13700002: BandKnot
+    13700004: BandTag
+    13700006: BandTip1
+    13700008: BandTip2
+    13700010: Body
+    13700012: eye
+    13700014: eye1
+    13700016: eyeLid
+    13700018: eyeLid 1
+    13700020: eyeLid1
+    13700022: eyeLid1 1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BandMat
+    second: {fileID: 2100000, guid: 76a2fdad36b926b4091eb16ccccc7270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyMat
+    second: {fileID: 2100000, guid: 393fdf015964f6d40860663a8d65da81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeLidsMat
+    second: {fileID: 2100000, guid: 5a912aed3cfeadc40bf0154eaa7431a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeMat
+    second: {fileID: 2100000, guid: 42fc6d21010b95b4da0b2bc18dcb8e91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IrisMat
+    second: {fileID: 2100000, guid: 3fd8159c77df7d240bea0aced5acf4b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowerPartMat
+    second: {fileID: 2100000, guid: 393fdf015964f6d40860663a8d65da81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MouthMat
+    second: {fileID: 2100000, guid: 457318acab7ff9641a11651628711d5b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.5
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
