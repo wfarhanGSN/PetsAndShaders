@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 9e7ef838b5454b24b99d02b545eb1b16
+guid: 19ad8a4f508483340ac76bfb646addf2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: head_joint
-    100002: headTip_joint
-    100004: hips_joint
-    100006: //RootNode
+    100000: //RootNode
+    100002: head_joint
+    100004: headTip_joint
+    100006: hips_joint
     100008: l_b_leg1_joint1
     100010: l_b_leg2_joint
     100012: l_b_leg3_joint
@@ -45,10 +45,10 @@ ModelImporter:
     100078: tongue2_joint
     100080: tongue3_joint
     100082: tongue4_joint
-    400000: head_joint
-    400002: headTip_joint
-    400004: hips_joint
-    400006: //RootNode
+    400000: //RootNode
+    400002: head_joint
+    400004: headTip_joint
+    400006: hips_joint
     400008: l_b_leg1_joint1
     400010: l_b_leg2_joint
     400012: l_b_leg3_joint
@@ -87,7 +87,7 @@ ModelImporter:
     400078: tongue2_joint
     400080: tongue3_joint
     400082: tongue4_joint
-    7400000: Idle1
+    7400000: Ability1
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -118,10 +118,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle1
+      name: Ability1
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 200
+      firstFrame: 0
+      lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
