@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: c6153b57659b33b4299f700da778fb95
+guid: 6badc25babefc5e4095ba7dae15d91e3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: head_joint
-    100002: headTip_joint
-    100004: hips_joint
-    100006: //RootNode
+    100000: //RootNode
+    100002: head_joint
+    100004: headTip_joint
+    100006: hips_joint
     100008: l_b_leg1_joint1
     100010: l_b_leg2_joint
     100012: l_b_leg3_joint
@@ -45,10 +45,10 @@ ModelImporter:
     100078: tongue2_joint
     100080: tongue3_joint
     100082: tongue4_joint
-    400000: head_joint
-    400002: headTip_joint
-    400004: hips_joint
-    400006: //RootNode
+    400000: //RootNode
+    400002: head_joint
+    400004: headTip_joint
+    400006: hips_joint
     400008: l_b_leg1_joint1
     400010: l_b_leg2_joint
     400012: l_b_leg3_joint
@@ -87,7 +87,9 @@ ModelImporter:
     400078: tongue2_joint
     400080: tongue3_joint
     400082: tongue4_joint
-    7400000: Idle3
+    7400000: Anility2_Start
+    7400002: Anility2_Loop
+    7400004: Anility2_End
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -118,10 +120,66 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle3
+      name: Anility2_Start
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 108
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Anility2_Loop
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Anility2_End
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 101
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
