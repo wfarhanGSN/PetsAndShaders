@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DogMat
+  m_Name: DogThickOutlineMat
   m_Shader: {fileID: 4800000, guid: ffbaedbda4c0c9b4db1486ae621012fc, type: 3}
   m_ShaderKeywords: _SPECGLOSSMAP _TEX_ON
   m_LightmapFlags: 4
