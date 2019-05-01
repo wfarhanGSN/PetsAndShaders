@@ -5,7 +5,7 @@ Shader "Sprites/Outline"
 {
     Properties
     {
-        [PerRendererData] _MainTex("Sprite Texture", 2D) = "white" {}
+        _MainTex("Sprite Texture", 2D) = "white" {}
         _Color("Tint", Color) = (1,1,1,1)
         [MaterialToggle] PixelSnap("Pixel snap", Float) = 0
         [HideInInspector] _RendererColor("RendererColor", Color) = (1,1,1,1)
@@ -15,8 +15,13 @@ Shader "Sprites/Outline"
 
         [MaterialToggle] _IsOutlineEnabled("Enable Outline", float) = 0
         _OutlineColor("Outline Color", Color) = (1,1,1,1)
-        _OutlineSize("Outline Size", Range(1, 100)) = 1
+        _OutlineSize("Outline Size", Range(0, 200)) = 1
         _AlphaThreshold("Alpha Threshold", Range(0, 1)) = 0.01
+
+
+        _SecTex ("Secondary (RGB)", 2D) = "white" {}
+        _Angle("Angle", Range(0, 200)) = 0
+        _Scale("Scale", Range(0.5, 2)) = 1
     }
 
     SubShader
@@ -84,15 +89,20 @@ Shader "Sprites/Outline"
             #endif
             CBUFFER_END
 
-            sampler2D _MainTex, _AlphaTex;
+            sampler2D _MainTex, _AlphaTex, _SecTex;
+            float4 _SecTex_ST;
+            float4 _MainTex_ST;
             float4 _MainTex_TexelSize;
             fixed4 _Color;
+            float _Angle;
+            float _Scale;
 
             struct VertexInput
             {
                 float4 Vertex : POSITION;
                 float4 Color : COLOR;
                 float2 TexCoord : TEXCOORD0;
+                float2 TexCoord1 : TEXCOORD1;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
@@ -101,6 +111,7 @@ Shader "Sprites/Outline"
                 float4 Vertex : SV_POSITION;
                 fixed4 Color : COLOR;
                 float2 TexCoord : TEXCOORD0;
+                float2 TexCoord1 : TEXCOORD1;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
                 UNITY_VERTEX_OUTPUT_STEREO
             };
@@ -125,13 +136,29 @@ Shader "Sprites/Outline"
                 vertexOutput.Vertex = UnityPixelSnap(vertexOutput.Vertex);
                 #endif
 
+
+
+     
+                float2 coord = TRANSFORM_TEX(vertexInput.TexCoord1,_SecTex); 
+
+                 coord-=0.5;
+                 float sinX = sin(_Angle/6.3);
+                 float cosX = cos(_Angle/6.3);
+                 float2x2 rotationMatrix = float2x2( cosX, -sinX, sinX, cosX);
+                 coord = mul ( coord, rotationMatrix );
+                 coord*=_Scale;
+                 coord+=0.5;
+                
+                vertexOutput.TexCoord1 = coord;
+
+
                 return vertexOutput;
             }
 
 
             // Determines whether _OutlineColor should replace sampledColor at the given texCoord when drawing outside the sprite borders.
             // Will return 1 when the test is positive (should draw outline), 0 otherwise.
-            float ShouldDrawOutlineOutside (fixed4 sampledColor, float2 texCoord, int isOutlineEnabled, int outlineSize, float alphaThreshold)
+            float2 ShouldDrawOutlineOutside (fixed4 sampledColor, float2 texCoord, int isOutlineEnabled, int outlineSize, float alphaThreshold)
             {
                 // Won't draw if effect is disabled, outline size is zero or sampled fragment is above alpha threshold.
                 if (isOutlineEnabled * outlineSize == 0) return 0;
@@ -139,30 +166,48 @@ Shader "Sprites/Outline"
 
                 float2 texDdx = ddx(texCoord);
                 float2 texDdy = ddy(texCoord);
+                float2 outV =float2(0,0);
 
                 // Looking for an opaque pixel (sprite border from outise) around computed fragment with given depth (_OutlineSize).
                 for (int i = 1; i <= outlineSize; i++)
                 {
+
+                    
                     float2 pixelUpTexCoord = texCoord + float2(0, i * _MainTex_TexelSize.y);
                     fixed pixelUpAlpha = tex2Dgrad(_MainTex, pixelUpTexCoord, texDdx, texDdy).a;
-                    if (pixelUpAlpha > alphaThreshold) return (1-float(i)/10.0);
+                    if (pixelUpAlpha > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
 
                     float2 pixelDownTexCoord = texCoord - float2(0, i * _MainTex_TexelSize.y);
                     fixed pixelDownAlpha = tex2Dgrad(_MainTex, pixelDownTexCoord, texDdx, texDdy).a;
-                    if (pixelDownAlpha > alphaThreshold) return (1-float(i)/10.0);
+                    if (pixelDownAlpha > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
 
                     float2 pixelRightTexCoord = texCoord + float2(i * _MainTex_TexelSize.x, 0);
                     fixed pixelRightAlpha = tex2Dgrad(_MainTex, pixelRightTexCoord, texDdx, texDdy).a;
-                    if (pixelRightAlpha > alphaThreshold) return (1-float(i)/10.0);
+                    if (pixelRightAlpha > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
 
                     float2 pixelLeftTexCoord = texCoord - float2(i * _MainTex_TexelSize.x, 0);
                     fixed pixelLeftAlpha = tex2Dgrad(_MainTex, pixelLeftTexCoord, texDdx, texDdy).a;
-                    if (pixelLeftAlpha > alphaThreshold) return (1-float(i)/10.0);
+                    if (pixelLeftAlpha > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
+                    
+                    float2 p1 = texCoord + float2(i * _MainTex_TexelSize.x, i * _MainTex_TexelSize.y);
+                    fixed p1a = tex2Dgrad(_MainTex, p1, texDdx, texDdy).a;
+                    if (p1a > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
 
-                    if (i > outlineSize) break;
+                    float2 p2 = texCoord + float2(-i * _MainTex_TexelSize.x, -i * _MainTex_TexelSize.y);
+                    fixed p2a = tex2Dgrad(_MainTex, p2, texDdx, texDdy).a;
+                    if (p2a > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
+
+                    float2 p3 = texCoord + float2(i * _MainTex_TexelSize.x, -i * _MainTex_TexelSize.y);
+                    fixed p3a = tex2Dgrad(_MainTex, p3, texDdx, texDdy).a;
+                    if (p3a > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
+
+                    float2 p4= texCoord + float2(-i * _MainTex_TexelSize.x, i * _MainTex_TexelSize.y);
+                    fixed p4a = tex2Dgrad(_MainTex, p4, texDdx, texDdy).a;
+                    if (p4a > alphaThreshold) outV+= float2(1,(1-float(i)/outlineSize));
+
                 }
-
-                return 0;
+                outV =float2(saturate(outV.x),saturate(outV.y/outV.x));
+                return outV;
             }
 
             fixed4 SampleSpriteTexture(float2 uv)
@@ -182,7 +227,8 @@ Shader "Sprites/Outline"
                 UNITY_SETUP_INSTANCE_ID(vertexOutput);
 
                 fixed4 color = SampleSpriteTexture(vertexOutput.TexCoord) * vertexOutput.Color;
-                color.rgb *= color.a;
+                fixed4 outlineTex = tex2D(_SecTex, vertexOutput.TexCoord1);
+                //color.rgb *= color.a;
 
                 int isOutlineEnabled = UNITY_ACCESS_INSTANCED_PROP(PerDrawSpriteOutline, _IsOutlineEnabled);
                 fixed4 outlineColor = UNITY_ACCESS_INSTANCED_PROP(PerDrawSpriteOutline, _OutlineColor);
@@ -190,12 +236,15 @@ Shader "Sprites/Outline"
                 float alphaThreshold = UNITY_ACCESS_INSTANCED_PROP(PerDrawSpriteOutline, _AlphaThreshold);
 
  
-                float shouldDrawOutline = ShouldDrawOutlineOutside(color, vertexOutput.TexCoord, isOutlineEnabled, outlineSize, alphaThreshold);
+                float2 shouldDrawOutline = ShouldDrawOutlineOutside(color, vertexOutput.TexCoord, isOutlineEnabled, outlineSize, alphaThreshold);
                 
-                color.rgb =shouldDrawOutline;
-                color.a = color.a+shouldDrawOutline;
-                //color.rgb = lerp(color.rgb, outlineColor.rgb * outlineColor.a, shouldDrawOutline);
+                //color.rgb =shouldDrawOutline;
+                
+                color.rgb = lerp(color.rgb/2, outlineTex.rgb*outlineColor.rgb, shouldDrawOutline.x);
+                color.rgb+=color.rgb/2;
+                color.a = lerp (color.a ,shouldDrawOutline.y*outlineTex.a*2*outlineColor.a,shouldDrawOutline.x );
 
+                color.rgb *= color.a;
                 return color;
             }
 
