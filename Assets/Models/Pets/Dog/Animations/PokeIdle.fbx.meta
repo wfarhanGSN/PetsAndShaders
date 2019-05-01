@@ -121,7 +121,7 @@ ModelImporter:
       name: PokeIdle
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 42
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

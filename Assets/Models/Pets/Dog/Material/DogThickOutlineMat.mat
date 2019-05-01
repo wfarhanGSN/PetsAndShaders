@@ -100,6 +100,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _GlowColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0.45490196, g: 0.32941177, b: 0.19607843, a: 1}
+    - _OutlineColor: {r: 0.6415094, g: 0.48159057, b: 0.31167677, a: 1}
     - _RimColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 0}
     - _SpecColor: {r: 0.103773594, g: 0.103773594, b: 0.103773594, a: 1}
