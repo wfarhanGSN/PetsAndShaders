@@ -9,12 +9,12 @@ public class AnimRandomize : StateMachineBehaviour
     void Awake()
     {
         total=0;
-        for(var i = 0; i< weights.Length; i++){
+        for(var i = 0; i< weights.Length; i++)
+        {
             total += weights[i];
         }
-
     }
-    
+
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         int pick = Random.Range(1,total+1); //range is max exclusive
