@@ -72,6 +72,7 @@ ModelImporter:
     100132: wheelGeo
     100134: WheelGeoGrp
     100136: wheelRotate
+    100138: hamsterRotCenter
     400000: Belly
     400002: body
     400004: Geo
@@ -141,8 +142,10 @@ ModelImporter:
     400132: wheelGeo
     400134: WheelGeoGrp
     400136: wheelRotate
+    400138: hamsterRotCenter
     2100000: HamsterMat
     2100002: WheelMaterial
+    2100004: lambert4
     4300000: nose
     4300002: r_eye
     4300004: l_ear
@@ -197,6 +200,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: WheelMaterial
     second: {fileID: 2100000, guid: 4290a680777cd8e47bab0ac53191351f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 4290a680777cd8e47bab0ac53191351f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -248,7 +256,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.5
+    previousCalculatedGlobalScale: 0.29999998
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

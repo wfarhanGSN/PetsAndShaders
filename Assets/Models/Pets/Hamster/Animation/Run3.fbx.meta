@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: b7a7a56bcd7e87d4b9f3701f2cf48129
+guid: 163e7cf2ee0d6004db34d5d7c3ba9d37
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Belly
-    100002: Geo
-    100004: hair1
-    100006: hair2
-    100008: hair3
-    100010: hamsterRoot
+    100002: hair1
+    100004: hair2
+    100006: hair3
+    100008: hamsterRoot
+    100010: hamsterRotCenter
     100012: head
     100014: hips
     100016: jaw
@@ -50,13 +50,12 @@ ModelImporter:
     100088: torso
     100090: torsoMid
     100092: wheelRotate
-    100094: hamsterRotCenter
     400000: Belly
-    400002: Geo
-    400004: hair1
-    400006: hair2
-    400008: hair3
-    400010: hamsterRoot
+    400002: hair1
+    400004: hair2
+    400006: hair3
+    400008: hamsterRoot
+    400010: hamsterRotCenter
     400012: head
     400014: hips
     400016: jaw
@@ -98,8 +97,7 @@ ModelImporter:
     400088: torso
     400090: torsoMid
     400092: wheelRotate
-    400094: hamsterRotCenter
-    7400000: Run
+    7400000: Pose
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -122,7 +120,7 @@ ModelImporter:
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0
+    animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
@@ -130,17 +128,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Run
+      name: Pose
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 7
+      lastFrame: 26
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -156,7 +154,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
