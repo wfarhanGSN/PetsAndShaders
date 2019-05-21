@@ -78,7 +78,7 @@ Shader "GSN/Outline" {
 
              half rim = 1.0 - saturate(dot (normalize(IN.viewDir), o.Normal));
              o.Emission = _RimColor.rgb * pow (rim, _RimPower)+_GlowColor;
-
+             o.Specular = 0;
             o.Alpha = c.a;
         }
  
