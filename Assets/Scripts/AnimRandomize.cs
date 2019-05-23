@@ -3,6 +3,8 @@
 public class AnimRandomize : StateMachineBehaviour
 {
     [SerializeField]
+    string intName="AnimRandomize";
+    [SerializeField]
     private int[] weights;
     private int total;
 
@@ -25,7 +27,7 @@ public class AnimRandomize : StateMachineBehaviour
             cumTotal+=weights[i];
             if (pick<=cumTotal)
             {
-                animator.SetInteger("AnimRandomize",i);
+                animator.SetInteger(intName,i);
                 break;
             }
         }
