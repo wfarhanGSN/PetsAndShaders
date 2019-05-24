@@ -69,6 +69,14 @@ ModelImporter:
     100126: transform1
     100128: transform4
     100130: wheelRotate
+    100132: l_eyeAlt
+    100134: l_eyeAltLid
+    100136: lBlackEye
+    100138: lBlackEyeLid
+    100140: r_eyeAlt
+    100142: r_eyeAltLid
+    100144: rBlackEye
+    100146: rBlackEyeLid
     400000: Belly
     400002: body
     400004: Geo
@@ -135,8 +143,17 @@ ModelImporter:
     400126: transform1
     400128: transform4
     400130: wheelRotate
+    400132: l_eyeAlt
+    400134: l_eyeAltLid
+    400136: lBlackEye
+    400138: lBlackEyeLid
+    400140: r_eyeAlt
+    400142: r_eyeAltLid
+    400144: rBlackEye
+    400146: rBlackEyeLid
     2100000: HamsterMat
     2100002: lambert1
+    2100004: HamsterEyes
     4300000: nose
     4300002: r_eye
     4300004: l_ear
@@ -158,6 +175,10 @@ ModelImporter:
     4300036: body
     4300038: hair
     4300040: HamsterSphere
+    4300042: rBlackEye
+    4300044: lBlackEye
+    4300046: lBlackEyeLid
+    4300048: rBlackEyeLid
     9500000: //RootNode
     13700000: body
     13700002: hair
@@ -180,6 +201,10 @@ ModelImporter:
     13700036: tail
     13700038: tooth1
     13700040: tooth2
+    13700042: lBlackEye
+    13700044: lBlackEyeLid
+    13700046: rBlackEye
+    13700048: rBlackEyeLid
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
