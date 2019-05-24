@@ -696,7 +696,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1749313970658378508}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: -67.16633, y: 90, z: 180}
+  m_LocalEulerAnglesHint: {x: -67.16634, y: 90, z: 180}
 --- !u!1 &1749313970658811542
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +949,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1749313970658378508}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: -35.425705, y: -87.542755, z: -2.062445}
+  m_LocalEulerAnglesHint: {x: -67.16633, y: 90, z: 180}
 --- !u!1 &1749313970658811556
 GameObject:
   m_ObjectHideFlags: 0
