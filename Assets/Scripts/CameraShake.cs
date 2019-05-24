@@ -11,8 +11,9 @@ public class CameraShake : MonoBehaviour
     private string triggerName="shake";
     // Start is called before the first frame update
 
-    public void DoShake()
+    public void DoShake(float shakeAmount)
     {
+        cameraAnimator.SetFloat("shakeAmount",shakeAmount);
         cameraAnimator.SetTrigger(triggerName);
     }
 }

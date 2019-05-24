@@ -889,13 +889,13 @@ AnimationClip:
     functionName: DoShake
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
+    floatParameter: 1
     intParameter: 0
     messageOptions: 0
   - time: 0.375
     functionName: DoShake
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
+    floatParameter: 0.5
     intParameter: 0
     messageOptions: 0
