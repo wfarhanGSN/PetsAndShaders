@@ -8,8 +8,7 @@
         Vector3 initialPosition;
         Quaternion initialRotation;
         Vector3 initialScale;
-        void Start ()
-        {
+        void Awake() {
             initialPosition = transform.position;
             initialRotation = transform.rotation;
             initialScale = transform.localScale;
