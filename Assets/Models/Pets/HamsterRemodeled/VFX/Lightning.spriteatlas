@@ -31,12 +31,13 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 078f4b85ce0df64498e1b885da03d5b9, type: 3}
-    totalSpriteSurfaceArea: 4194304
+    totalSpriteSurfaceArea: 4755756
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: f2ca7330b7b176c4d86c3ab364ab8336, type: 3}
   - {fileID: 21300000, guid: 3e35d240aa8fe5d40a89a94e0f22684f, type: 3}
+  - {fileID: 21300000, guid: 5ea0969046788694bb698d2375ef8ddf, type: 3}
   - {fileID: 21300000, guid: 40b2d7f094f0a8d4292af9ecd70f259b, type: 3}
   - {fileID: 21300000, guid: 2e074b41079f9fb498017161fb2f597a, type: 3}
   - {fileID: 21300000, guid: d50872b1218fdbd4fa4055acc121e3ec, type: 3}
@@ -45,6 +46,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fa3cf282d377a894eb846992618f38e5, type: 3}
   - {fileID: 21300000, guid: 7c5186b2be9b4d74c8ac5cb2d0a5dc39, type: 3}
   - {fileID: 21300000, guid: da0a4cc22eb6f934a9144af1741df1ec, type: 3}
+  - {fileID: 21300000, guid: 39d0ea1380b44ea49b396e65cfb1bd9d, type: 3}
   - {fileID: 21300000, guid: fcbdbf13d681f9f43a49a07770ac2d8c, type: 3}
   - {fileID: 21300000, guid: efe641231dad889489b2f25d6c8c77c0, type: 3}
   - {fileID: 21300000, guid: de63873352ce4da4fbaa4eb82c02bcf3, type: 3}
@@ -73,6 +75,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 778183b740998084392c4b93ecef42cc, type: 3}
   - {fileID: 21300000, guid: 47d69bb74970e4a419c2e158cbdc5b44, type: 3}
   - {fileID: 21300000, guid: 85a51cd7f0796f748a35783906c8fd24, type: 3}
+  - {fileID: 21300000, guid: 4187f8e7668391241a303c7a34db4f3b, type: 3}
   - {fileID: 21300000, guid: 21ee54b8e04d74145972343a9a56a5b1, type: 3}
   - {fileID: 21300000, guid: 895b77c8c7d035847be69c2484f5d97e, type: 3}
   - {fileID: 21300000, guid: 0d15bb69102999d48bad58f7d4e43c90, type: 3}
@@ -102,6 +105,7 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - Lightning_57
   - Lightning_18
+  - WhiteSquare
   - Lightning_23
   - Lightning_36
   - Lightning_03
@@ -110,6 +114,7 @@ SpriteAtlas:
   - Lightning_13
   - Lightning_11
   - Lightning_26
+  - Glow
   - Lightning_62
   - Lightning_33
   - Lightning_66
@@ -138,6 +143,7 @@ SpriteAtlas:
   - Lightning_12
   - Lightning_25
   - Lightning_52
+  - Empty
   - Lightning_27
   - Lightning_58
   - Lightning_17
