@@ -1897,6 +1897,21 @@ PrefabInstance:
       propertyPath: cameraAnimator
       value: 
       objectReference: {fileID: 519034378}
+    - target: {fileID: 6744048338552575433, guid: 0f880d7a4b7815742ae9d4704c76d14b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.4499
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744048338552575433, guid: 0f880d7a4b7815742ae9d4704c76d14b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216716061127812558, guid: 0f880d7a4b7815742ae9d4704c76d14b,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f880d7a4b7815742ae9d4704c76d14b, type: 3}
 --- !u!1001 &5295441540738312368

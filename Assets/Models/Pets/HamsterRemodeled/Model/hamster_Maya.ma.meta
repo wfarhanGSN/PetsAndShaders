@@ -3,6 +3,202 @@ guid: b1629391e0b33c2418cbf85dec4ab637
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: back
+    100002: Belly
+    100004: body
+    100006: Geo
+    100008: hair
+    100010: hair1
+    100012: hair2
+    100014: hair3
+    100016: Hamster
+    100018: //RootNode
+    100020: hamsterRoot
+    100022: hamsterRotCenter
+    100024: head
+    100026: hips
+    100028: jaw
+    100030: jawTip
+    100032: joint6
+    100034: joint6 1
+    100036: l_arm
+    100038: l_b_eyeLid
+    100040: l_b_eyeLid 1
+    100042: l_b_whisker
+    100044: l_ear
+    100046: l_ear 1
+    100048: l_elbow
+    100050: l_eye
+    100052: l_eye 1
+    100054: l_eyeAlt
+    100056: l_eyeAltLid
+    100058: l_eyebrow
+    100060: l_eyebrow 1
+    100062: l_foot
+    100064: l_hand
+    100066: l_leg
+    100068: l_t_eyeLid
+    100070: l_t_eyeLid 1
+    100072: l_t_whisker
+    100074: l_toeTip
+    100076: lBlackEye
+    100078: lBlackEyeLid
+    100080: nose
+    100082: nose 1
+    100084: r_arm
+    100086: r_b_eyeLid
+    100088: r_b_eyeLid 1
+    100090: r_b_whisker
+    100092: r_ear
+    100094: r_ear 1
+    100096: r_elbow
+    100098: r_eye
+    100100: r_eye 1
+    100102: r_eyeAlt
+    100104: r_eyeAltLid
+    100106: r_eyebrow
+    100108: r_eyebrow 1
+    100110: r_foot
+    100112: r_hand
+    100114: r_leg
+    100116: r_t_eyeLid
+    100118: r_t_eyeLid 1
+    100120: r_t_whisker
+    100122: r_toeTip
+    100124: rBlackEye
+    100126: rBlackEyeLid
+    100128: Tail
+    100130: tail
+    100132: tooth1
+    100134: tooth2
+    100136: torso
+    100138: torsoMid
+    100140: transform1
+    100142: transform4
+    400000: back
+    400002: Belly
+    400004: body
+    400006: Geo
+    400008: hair
+    400010: hair1
+    400012: hair2
+    400014: hair3
+    400016: Hamster
+    400018: //RootNode
+    400020: hamsterRoot
+    400022: hamsterRotCenter
+    400024: head
+    400026: hips
+    400028: jaw
+    400030: jawTip
+    400032: joint6
+    400034: joint6 1
+    400036: l_arm
+    400038: l_b_eyeLid
+    400040: l_b_eyeLid 1
+    400042: l_b_whisker
+    400044: l_ear
+    400046: l_ear 1
+    400048: l_elbow
+    400050: l_eye
+    400052: l_eye 1
+    400054: l_eyeAlt
+    400056: l_eyeAltLid
+    400058: l_eyebrow
+    400060: l_eyebrow 1
+    400062: l_foot
+    400064: l_hand
+    400066: l_leg
+    400068: l_t_eyeLid
+    400070: l_t_eyeLid 1
+    400072: l_t_whisker
+    400074: l_toeTip
+    400076: lBlackEye
+    400078: lBlackEyeLid
+    400080: nose
+    400082: nose 1
+    400084: r_arm
+    400086: r_b_eyeLid
+    400088: r_b_eyeLid 1
+    400090: r_b_whisker
+    400092: r_ear
+    400094: r_ear 1
+    400096: r_elbow
+    400098: r_eye
+    400100: r_eye 1
+    400102: r_eyeAlt
+    400104: r_eyeAltLid
+    400106: r_eyebrow
+    400108: r_eyebrow 1
+    400110: r_foot
+    400112: r_hand
+    400114: r_leg
+    400116: r_t_eyeLid
+    400118: r_t_eyeLid 1
+    400120: r_t_whisker
+    400122: r_toeTip
+    400124: rBlackEye
+    400126: rBlackEyeLid
+    400128: Tail
+    400130: tail
+    400132: tooth1
+    400134: tooth2
+    400136: torso
+    400138: torsoMid
+    400140: transform1
+    400142: transform4
+    2000000: back
+    2100000: HamsterMat
+    2100002: HamsterEyes
+    4300000: nose
+    4300002: r_eye
+    4300004: l_ear
+    4300006: l_eyebrow
+    4300008: r_ear
+    4300010: r_eyebrow
+    4300012: tail
+    4300014: tooth2
+    4300016: tooth1
+    4300018: l_t_whisker
+    4300020: l_b_whisker
+    4300022: r_t_whisker
+    4300024: l_b_eyeLid
+    4300026: l_t_eyeLid
+    4300028: r_t_eyeLid
+    4300030: r_b_eyeLid
+    4300032: l_eye
+    4300034: r_b_whisker
+    4300036: body
+    4300038: hair
+    4300040: rBlackEye
+    4300042: lBlackEye
+    4300044: lBlackEyeLid
+    4300046: rBlackEyeLid
+    9500000: //RootNode
+    13700000: body
+    13700002: hair
+    13700004: l_b_eyeLid
+    13700006: l_b_whisker
+    13700008: l_ear
+    13700010: l_eye
+    13700012: l_eyebrow
+    13700014: l_t_eyeLid
+    13700016: l_t_whisker
+    13700018: lBlackEye
+    13700020: lBlackEyeLid
+    13700022: nose
+    13700024: r_b_eyeLid
+    13700026: r_b_whisker
+    13700028: r_ear
+    13700030: r_eye
+    13700032: r_eyebrow
+    13700034: r_t_eyeLid
+    13700036: r_t_whisker
+    13700038: rBlackEye
+    13700040: rBlackEyeLid
+    13700042: tail
+    13700044: tooth1
+    13700046: tooth2
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +253,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
