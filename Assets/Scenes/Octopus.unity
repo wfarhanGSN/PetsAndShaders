@@ -1836,7 +1836,7 @@ PrefabInstance:
     - target: {fileID: 3636195128588209498, guid: 0f880d7a4b7815742ae9d4704c76d14b,
         type: 3}
       propertyPath: m_Name
-      value: HamsterOnly
+      value: Hamster
       objectReference: {fileID: 0}
     - target: {fileID: 3636195128588505466, guid: 0f880d7a4b7815742ae9d4704c76d14b,
         type: 3}
