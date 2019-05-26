@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf6087eb53e9c46429d5937064ec0bd4
+guid: 5ac68673191064342a957c9980374a03
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -12,67 +12,71 @@ ModelImporter:
     100012: hair3
     100014: //RootNode
     100016: hamsterRoot
-    100018: head
-    100020: hips
-    100022: jaw
-    100024: jawTip
-    100026: l_ankle
-    100028: l_arm
-    100030: l_b_eyeLid
-    100032: l_b_eyeLid 1
-    100034: l_b_whisker
-    100036: l_clav
-    100038: l_ear
-    100040: l_ear 1
-    100042: l_elbow
-    100044: l_eye
-    100046: l_eye 1
-    100048: l_eyebrow
-    100050: l_eyebrow 1
-    100052: l_hand
-    100054: l_handTip
-    100056: l_knee
-    100058: l_leg
-    100060: l_t_eyeLid
-    100062: l_t_eyeLid 1
-    100064: l_t_whisker
-    100066: l_toes
-    100068: l_toesTip
-    100070: nose
-    100072: nose 1
-    100074: r_ankle
+    100018: hamsterRotCenter
+    100020: HamsterSphere
+    100022: HamsterSphere 1
+    100024: head
+    100026: hips
+    100028: jaw
+    100030: jawTip
+    100032: joint6
+    100034: joint6 1
+    100036: l_arm
+    100038: l_b_eyeLid
+    100040: l_b_eyeLid 1
+    100042: l_b_whisker
+    100044: l_ear
+    100046: l_ear 1
+    100048: l_elbow
+    100050: l_eye
+    100052: l_eye 1
+    100054: l_eyebrow
+    100056: l_eyebrow 1
+    100058: l_foot
+    100060: l_hand
+    100062: l_leg
+    100064: l_t_eyeLid
+    100066: l_t_eyeLid 1
+    100068: l_t_whisker
+    100070: l_toeTip
+    100072: nose
+    100074: nose 1
     100076: r_arm
     100078: r_b_eyeLid
     100080: r_b_eyeLid 1
     100082: r_b_whisker
-    100084: r_clav
-    100086: r_ear
-    100088: r_ear 1
-    100090: r_elbow
-    100092: r_eye
-    100094: r_eye 1
-    100096: r_eyebrow
-    100098: r_eyebrow 1
+    100084: r_ear
+    100086: r_ear 1
+    100088: r_elbow
+    100090: r_eye
+    100092: r_eye 1
+    100094: r_eyebrow
+    100096: r_eyebrow 1
+    100098: r_foot
     100100: r_hand
-    100102: r_handTip
-    100104: r_knee
-    100106: r_leg
-    100108: r_t_eyeLid
-    100110: r_t_eyeLid 1
-    100112: r_t_whisker
-    100114: r_toes
-    100116: r_toesTip
-    100118: root
-    100120: Tail
-    100122: tail
-    100124: tooth1
-    100126: tooth2
-    100128: torso
-    100130: torsoMid
-    100132: wheelGeo
-    100134: WheelGeoGrp
-    100136: wheelRotate
-    100138: hamsterRotCenter
+    100102: r_leg
+    100104: r_t_eyeLid
+    100106: r_t_eyeLid 1
+    100108: r_t_whisker
+    100110: r_toeTip
+    100112: root
+    100114: Tail
+    100116: tail
+    100118: tooth1
+    100120: tooth2
+    100122: torso
+    100124: torsoMid
+    100126: transform1
+    100128: transform4
+    100130: wheelRotate
+    100132: l_eyeAlt
+    100134: l_eyeAltLid
+    100136: lBlackEye
+    100138: lBlackEyeLid
+    100140: r_eyeAlt
+    100142: r_eyeAltLid
+    100144: rBlackEye
+    100146: rBlackEyeLid
     400000: Belly
     400002: body
     400004: Geo
@@ -82,129 +86,137 @@ ModelImporter:
     400012: hair3
     400014: //RootNode
     400016: hamsterRoot
-    400018: head
-    400020: hips
-    400022: jaw
-    400024: jawTip
-    400026: l_ankle
-    400028: l_arm
-    400030: l_b_eyeLid
-    400032: l_b_eyeLid 1
-    400034: l_b_whisker
-    400036: l_clav
-    400038: l_ear
-    400040: l_ear 1
-    400042: l_elbow
-    400044: l_eye
-    400046: l_eye 1
-    400048: l_eyebrow
-    400050: l_eyebrow 1
-    400052: l_hand
-    400054: l_handTip
-    400056: l_knee
-    400058: l_leg
-    400060: l_t_eyeLid
-    400062: l_t_eyeLid 1
-    400064: l_t_whisker
-    400066: l_toes
-    400068: l_toesTip
-    400070: nose
-    400072: nose 1
-    400074: r_ankle
+    400018: hamsterRotCenter
+    400020: HamsterSphere
+    400022: HamsterSphere 1
+    400024: head
+    400026: hips
+    400028: jaw
+    400030: jawTip
+    400032: joint6
+    400034: joint6 1
+    400036: l_arm
+    400038: l_b_eyeLid
+    400040: l_b_eyeLid 1
+    400042: l_b_whisker
+    400044: l_ear
+    400046: l_ear 1
+    400048: l_elbow
+    400050: l_eye
+    400052: l_eye 1
+    400054: l_eyebrow
+    400056: l_eyebrow 1
+    400058: l_foot
+    400060: l_hand
+    400062: l_leg
+    400064: l_t_eyeLid
+    400066: l_t_eyeLid 1
+    400068: l_t_whisker
+    400070: l_toeTip
+    400072: nose
+    400074: nose 1
     400076: r_arm
     400078: r_b_eyeLid
     400080: r_b_eyeLid 1
     400082: r_b_whisker
-    400084: r_clav
-    400086: r_ear
-    400088: r_ear 1
-    400090: r_elbow
-    400092: r_eye
-    400094: r_eye 1
-    400096: r_eyebrow
-    400098: r_eyebrow 1
+    400084: r_ear
+    400086: r_ear 1
+    400088: r_elbow
+    400090: r_eye
+    400092: r_eye 1
+    400094: r_eyebrow
+    400096: r_eyebrow 1
+    400098: r_foot
     400100: r_hand
-    400102: r_handTip
-    400104: r_knee
-    400106: r_leg
-    400108: r_t_eyeLid
-    400110: r_t_eyeLid 1
-    400112: r_t_whisker
-    400114: r_toes
-    400116: r_toesTip
-    400118: root
-    400120: Tail
-    400122: tail
-    400124: tooth1
-    400126: tooth2
-    400128: torso
-    400130: torsoMid
-    400132: wheelGeo
-    400134: WheelGeoGrp
-    400136: wheelRotate
-    400138: hamsterRotCenter
+    400102: r_leg
+    400104: r_t_eyeLid
+    400106: r_t_eyeLid 1
+    400108: r_t_whisker
+    400110: r_toeTip
+    400112: root
+    400114: Tail
+    400116: tail
+    400118: tooth1
+    400120: tooth2
+    400122: torso
+    400124: torsoMid
+    400126: transform1
+    400128: transform4
+    400130: wheelRotate
+    400132: l_eyeAlt
+    400134: l_eyeAltLid
+    400136: lBlackEye
+    400138: lBlackEyeLid
+    400140: r_eyeAlt
+    400142: r_eyeAltLid
+    400144: rBlackEye
+    400146: rBlackEyeLid
     2100000: HamsterMat
-    2100002: WheelMaterial
-    2100004: lambert4
+    2100002: lambert1
+    2100004: HamsterEyes
     4300000: nose
     4300002: r_eye
     4300004: l_ear
     4300006: l_eyebrow
     4300008: r_ear
     4300010: r_eyebrow
-    4300012: hair
-    4300014: body
-    4300016: tail
-    4300018: tooth2
-    4300020: tooth1
-    4300022: l_t_whisker
-    4300024: l_b_whisker
-    4300026: r_t_whisker
-    4300028: l_b_eyeLid
-    4300030: l_t_eyeLid
-    4300032: r_t_eyeLid
-    4300034: r_b_eyeLid
-    4300036: l_eye
-    4300038: r_b_whisker
-    4300040: wheelGeo
+    4300012: tail
+    4300014: tooth2
+    4300016: tooth1
+    4300018: l_t_whisker
+    4300020: l_b_whisker
+    4300022: r_t_whisker
+    4300024: l_b_eyeLid
+    4300026: l_t_eyeLid
+    4300028: r_t_eyeLid
+    4300030: r_b_eyeLid
+    4300032: l_eye
+    4300034: r_b_whisker
+    4300036: body
+    4300038: hair
+    4300040: HamsterSphere
+    4300042: rBlackEye
+    4300044: lBlackEye
+    4300046: lBlackEyeLid
+    4300048: rBlackEyeLid
     9500000: //RootNode
     13700000: body
     13700002: hair
-    13700004: l_b_eyeLid
-    13700006: l_b_whisker
-    13700008: l_ear
-    13700010: l_eye
-    13700012: l_eyebrow
-    13700014: l_t_eyeLid
-    13700016: l_t_whisker
-    13700018: nose
-    13700020: r_b_eyeLid
-    13700022: r_b_whisker
-    13700024: r_ear
-    13700026: r_eye
-    13700028: r_eyebrow
-    13700030: r_t_eyeLid
-    13700032: r_t_whisker
-    13700034: tail
-    13700036: tooth1
-    13700038: tooth2
-    13700040: wheelGeo
+    13700004: HamsterSphere 1
+    13700006: l_b_eyeLid
+    13700008: l_b_whisker
+    13700010: l_ear
+    13700012: l_eye
+    13700014: l_eyebrow
+    13700016: l_t_eyeLid
+    13700018: l_t_whisker
+    13700020: nose
+    13700022: r_b_eyeLid
+    13700024: r_b_whisker
+    13700026: r_ear
+    13700028: r_eye
+    13700030: r_eyebrow
+    13700032: r_t_eyeLid
+    13700034: r_t_whisker
+    13700036: tail
+    13700038: tooth1
+    13700040: tooth2
+    13700042: lBlackEye
+    13700044: lBlackEyeLid
+    13700046: rBlackEye
+    13700048: rBlackEyeLid
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: HamsterMat
-    second: {fileID: 2100000, guid: 6a24a24bdc2f45245a0c850ea5a39f17, type: 2}
+    second: {fileID: 2100000, guid: a650ab1bf9db79448be3abd606f7784a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: WheelMaterial
-    second: {fileID: 2100000, guid: 4290a680777cd8e47bab0ac53191351f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert4
-    second: {fileID: 2100000, guid: 4290a680777cd8e47bab0ac53191351f, type: 2}
+      name: lambert1
+    second: {fileID: 2100000, guid: 95c6e2a75def5ff4a861b58014324f81, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -266,7 +278,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
