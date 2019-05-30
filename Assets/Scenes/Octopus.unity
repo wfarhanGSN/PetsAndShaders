@@ -755,7 +755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &528832606
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1296,6 +1296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hamster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636195128588209498, guid: 42d01d1cacec95847a07e9d013381b63,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3636195128588505466, guid: 42d01d1cacec95847a07e9d013381b63,
         type: 3}
