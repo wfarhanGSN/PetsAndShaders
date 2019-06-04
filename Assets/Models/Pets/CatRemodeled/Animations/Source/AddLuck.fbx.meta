@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: c41b521c5699df64f9990e6ed06b5a64
+guid: 496baf3580ee31847950485942a4deee
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: belly_joint
-    100002: head_joint
-    100004: headTip_joint
-    100006: hip_joint
-    100008: //RootNode
+    100000: //RootNode
+    100002: belly_joint
+    100004: head_joint
+    100006: headTip_joint
+    100008: hip_joint
     100010: jaw_joint
     100012: jawEnd_joint
     100014: l_b_foot
@@ -39,11 +39,11 @@ ModelImporter:
     100066: tail4_joint
     100068: tail5_joint
     100070: torso_joint
-    400000: belly_joint
-    400002: head_joint
-    400004: headTip_joint
-    400006: hip_joint
-    400008: //RootNode
+    400000: //RootNode
+    400002: belly_joint
+    400004: head_joint
+    400006: headTip_joint
+    400008: hip_joint
     400010: jaw_joint
     400012: jawEnd_joint
     400014: l_b_foot
@@ -75,7 +75,7 @@ ModelImporter:
     400066: tail4_joint
     400068: tail5_joint
     400070: torso_joint
-    7400000: PokeIdle
+    7400000: AddLuck
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -106,10 +106,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: PokeIdle
+      name: AddLuck
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 27
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
